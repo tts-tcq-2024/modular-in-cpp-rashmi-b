@@ -1,5 +1,5 @@
 #include "ColorCoder.hpp"
-#include "ColorCoderTest.hpp"
+#include "ColorCoderTester.hpp"
 
 int main() {
     testNumberToPair(4, ColorCoder::BLACK, ColorCoder::RED);

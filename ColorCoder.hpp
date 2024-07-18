@@ -1,5 +1,5 @@
-#ifndef COLOUR_CODER_HPP
-#define COLOUR_CODER_HPP
+#ifndef COLOR_CODER_HPP
+#define COLOR_CODER_HPP
 
 #include <iostream>
 #include <assert.h>

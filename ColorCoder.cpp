@@ -38,12 +38,3 @@ int ColorCoder::GetPairNumberFromColor(ColorCoder::MajorColor major, ColorCoder:
 {
     return major * numberOfMinorColors + minor + 1;
 }
-
-void ColorCoder::printWiringManual()
-{
-    for (int pairNum = 1; pairNum < 26; pairNum++)
-    {
-        ColorCoder::ColorPair colorPair = ColorCoder::GetColorFromPairNumber(pairNum);
-        std::cout << "Colour pair: " << colorPair.ToString() << "\t->\tPair Number: " << pairNum<< std::endl;
-    }
-}

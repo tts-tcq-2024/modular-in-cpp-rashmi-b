@@ -28,10 +28,6 @@ namespace ColorCoder
   };
 
   ColorPair GetColorFromPairNumber(int pairNumber);
-  int GetPairNumberFromColor(MajorColor major, MinorColor minor);  
-  
-  //Print the Reference Manual for Wiring
-  void printWiringManual();
-
+  int GetPairNumberFromColor(MajorColor major, MinorColor minor);
 }
 #endif

@@ -29,15 +29,6 @@ namespace ColorCoder
 
   ColorPair GetColorFromPairNumber(int pairNumber);
   int GetPairNumberFromColor(MajorColor major, MinorColor minor);
-      
-  void testNumberToPair(int pairNumber,
-  ColorCoder::MajorColor expectedMajor,
-  ColorCoder::MinorColor expectedMinor);
-
-  void testPairToNumber(
-  ColorCoder::MajorColor major,
-  ColorCoder::MinorColor minor,
-  int expectedPairNumber);
 
 }
 #endif
